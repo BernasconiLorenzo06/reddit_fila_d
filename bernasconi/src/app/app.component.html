@@ -1,5 +1,5 @@
 <form>
-  <h3>CARLIST</h3>
+  <h3>Add a Link</h3>
   <div>
     <label for="colore">inserisci colore</label>
     <input name="colore" #colore>
@@ -12,7 +12,7 @@
     <label for="auto">inserisci tipo auto:</label>
     <input name="auto" #auto>
   </div>
-  <button>
+  <button (click)="autoTot(colore,porte,auto)">
     salva
     </button>
   

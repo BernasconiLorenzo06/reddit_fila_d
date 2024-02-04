@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bernasconi';
+
+ 
+  autoTot(colore: HTMLInputElement, porte: HTMLInputElement, auto: HTMLInputElement): boolean {
+   
+    console.log (colore.value,porte.value,auto.value); // questo fa si che si possa visualizzare su CONSOLE
+    return false;
+}
 }
