@@ -9,5 +9,5 @@ export class CarListComponent {
   @Input() colore: HTMLInputElement; // input trasferisce i dati
   @Input() porte: HTMLInputElement;
   @Input() auto: HTMLInputElement;
-
+  @Input() vettore: any[];
 }
